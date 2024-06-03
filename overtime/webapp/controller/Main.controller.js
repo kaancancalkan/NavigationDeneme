@@ -138,12 +138,12 @@ sap.ui.define([
               var sTileTitle = oTile.getTitle();
               MessageToast.show("Pressed: " + sTileTitle);
               var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-              if (oTile.sId === "detailTile") {
+              if (oTile.sId.includes("detailTile") ){
                
               oRouter.navTo("detail");
               }
               
-              oRouter.navTo("detail");
+              //oRouter.navTo("detail");
           }
         
         });
