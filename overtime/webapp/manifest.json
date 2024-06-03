@@ -107,6 +107,11 @@
           "pattern": "detail",
           "name": "detail",
           "target": "detail"
+        },
+        {
+          "pattern": "second",
+          "name": "second",
+          "target": "second"
         }
       ],
       "targets": {
@@ -127,10 +132,15 @@
           "viewId": "detail",
           "viewLevel": 1
       },
+      "second": {
+          "viewName": "Second",
+          "viewId": "second",
+          "viewLevel": 2
+      },
       "notFound": {
           "viewName": "NotFound",
           "viewId": "notFoundView",
-          "viewLevel": 2
+          "viewLevel": 3
       }
       }
     },

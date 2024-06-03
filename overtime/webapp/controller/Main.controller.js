@@ -142,7 +142,10 @@ sap.ui.define([
                
               oRouter.navTo("detail");
               }
-              
+              if (oTile.sId.includes("secondTile") ){
+               
+                oRouter.navTo("second");
+                }
               //oRouter.navTo("detail");
           }
         

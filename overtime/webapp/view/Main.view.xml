@@ -13,7 +13,7 @@
             info="Info for Tile 1"
             press="onTilePress"/>
         <StandardTile
-            id="tableTile"
+            id="secondTile"
             icon="sap-icon://settings"
             title="Tile 2"
             info="Info for Tile 2"
